@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Brembati | Ingegnere Informatico & Sviluppatore</title>
+    
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="profile.jpg">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome per le icone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Collegamento al file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <!-- Logo cliccabile -->
+        <a href="#hero" class="logo">David<span>.</span></a>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">Chi Sono</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Esperienze</a></li>
+            <li><a href="#projects">Progetti</a></li>
+            <li><a href="#contact">Contatti</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <div class="hero-content reveal">
+            <img src="profile.jpg" alt="David Brembati" class="profile-img">
+            <h1>Ciao, sono <span>David Brembati</span></h1>
+            <!-- L'effetto macchina da scrivere verrà applicato a questo h2 tramite JS -->
+            <h2>Studente di Ingegneria Informatica & Sviluppatore</h2>
+            <p>Appassionato di informatica e del mondo della tecnologia. Mi distinguo per disciplina, costanza e determinazione, qualità che coltivo anche attraverso lo sport.</p>
+            
+            <div class="hero-buttons">
+                <a href="#about" class="btn">Scopri di più</a>
+                <!-- Assicurati di avere il PDF del CV nella cartella e rinominalo correttamente -->
+                <a href="CV_David_Brembati.pdf" download class="btn btn-outline">
+                    <i class="fas fa-download"></i> Scarica CV
+                </a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/Davidbrembo" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:brembatidavid@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2 class="section-title reveal">Chi Sono</h2>
+        <div class="about-grid reveal">
+            <div class="about-text">
+                <p>Frequento la laurea triennale in Ingegneria Informatica. La mia passione per la tecnologia mi spinge costantemente a imparare e migliorare, applicando problem solving e pensiero critico in ogni progetto.</p>
+                <p>Oltre allo studio, coltivo la mia disciplina attraverso lo sport, in particolare palestra, corsa ed escursioni, che mi aiutano a mantenere alto il livello di concentrazione e determinazione.</p>
+            </div>
+            <div class="about-info">
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Brescia, Lombardia</li>
+                    <li><i class="fas fa-phone"></i> +39 331 782 9616</li>
+                    <li><i class="fas fa-envelope"></i> brembatidavid@gmail.com</li>
+                    <li><i class="fab fa-github"></i> github.com/Davidbrembo</li>
+                    <li><i class="fas fa-language"></i> Italiano (Madrelingua), Inglese (Professionale)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+        <h2 class="section-title reveal">Competenze</h2>
+        <div class="skills-container reveal">
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Hard Skills</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">C / C++</span>
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">OOP</span>
+                    <span class="skill-tag">Git & GitHub</span>
+                    <span class="skill-tag">MySQL / Firestore / Cassandra</span>
+                    <span class="skill-tag">Wireshark & Cisco PT</span>
+                    <span class="skill-tag">Progettazione DB</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Problem Solving</span>
+                    <span class="skill-tag">Teamwork</span>
+                    <span class="skill-tag">Flessibilità</span>
+                    <span class="skill-tag">Attenzione ai dettagli</span>
+                    <span class="skill-tag">Organizzazione</span>
+                    <span class="skill-tag">Gestione del tempo</span>
+                    <span class="skill-tag">Pensiero critico</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience">
+        <h2 class="section-title reveal">Esperienze & Istruzione</h2>
+        <div class="timeline reveal">
+            
+            <!-- Modificato in 'left' per iniziare la timeline da sinistra -->
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Stage Estivo (Alternanza Scuola-Lavoro)</h3>
+                    <span class="date">I-Service S.R.L., Brescia</span>
+                    <p>Riparazione hardware e software PC/Mac/Linux, assistenza remota (TeamViewer), supporto dispositivi mobili, backup, patch di sicurezza e diagnosi guasti.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Laurea Triennale in Ingegneria Informatica</h3>
+                    <span class="date">In corso</span>
+                    <p>Sviluppo di gestionali (GRASP, SOLID, GoF), giochi multithread (JavaFX, MVC, TCP/IP) e progetti full-stack.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Diploma ITIS</h3>
+                    <span class="date">Informatica e Telecomunicazioni</span>
+                    <p>Programmazione (Java, JS, PHP, SQL, Python, C, C++), gestione DB relazionali/non, sviluppo web e simulazione reti.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <h2 class="section-title reveal">Progetti Universitari e Scolastici</h2>
+        <div class="projects-grid reveal">
+            
+            <div class="project-card">
+                <h3>Homebanking Full-Stack</h3>
+                <p>Sviluppo in team di una piattaforma di Homebanking. Backend in Laravel/PHP, frontend in HTML/CSS/JS/Bootstrap, database MySQL gestito tramite XAMPP e phpMyAdmin.</p>
+                <div class="project-tech">
+                    <span>Laravel</span><span>PHP</span><span>MySQL</span><span>Bootstrap</span>
+                </div>
+                <a href="https://github.com/SinghSahiljit44/home_banking" target="_blank" class="project-link"><i class="fab fa-github"></i> Vedi Codice</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Battaglia Navale Multithreaded</h3>
+                <p>Gioco in JavaFX con architettura MVC client-server TCP/IP. Progettato ponendo particolare attenzione alla manutenibilità del codice e alla concorrenza.</p>
+                <div class="project-tech">
+                    <span>Java</span><span>JavaFX</span><span>TCP/IP</span><span>MVC</span>
+                </div>
+                <a href="https://github.com/Davidbrembo/BattagliaNavale" target="_blank" class="project-link"><i class="fab fa-github"></i> Vedi Codice</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Gestionale Aziendale</h3>
+                <p>Sviluppo in team di un software gestionale applicando i principi dei design pattern GRASP, SOLID e GoF per garantire un'architettura pulita e scalabile.</p>
+                <div class="project-tech">
+                    <span>Java</span><span>OOP</span><span>Design Patterns</span>
+                </div>
+                <a href="https://github.com/matteolublanis/VisiteTuristiche-IngeSW" target="_blank" class="project-link"><i class="fab fa-github"></i> Vedi Codice</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Chat Multiclient con GUI</h3>
+                <p>Sistema di messaggistica istantanea multiclient sviluppato in Java con interfaccia grafica JavaFX. Include sistemi di crittografia tramite algoritmo SHA-256.</p>
+                <div class="project-tech">
+                    <span>Java</span><span>JavaFX</span><span>SHA-256</span><span>Socket</span>
+                </div>
+                <a href="https://github.com/Davidbrembo" target="_blank" class="project-link"><i class="fab fa-github"></i> Vedi Codice</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION (Form) -->
+    <section id="contact">
+        <h2 class="section-title reveal">Contattami</h2>
+        <div class="contact-container reveal">
+            <form action="https://formspree.io/f/mjyyzpvk" method="POST" class="contact-form">
+                <div class="input-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" placeholder="Il tuo nome" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="La tua email" required>
+                </div>
+                <div class="input-group">
+                    <label for="message">Messaggio</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Scrivi qui il tuo messaggio..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Invia Messaggio</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 David Brembati. Progettato e sviluppato con passione.</p>
+    </footer>
+
+    <!-- Collegamento al file JS -->
+    <script src="script.js" defer></script>
+</body>
+</html>
